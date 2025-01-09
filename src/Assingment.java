@@ -21,6 +21,7 @@ public class Assingment {
 		System.out.println(driver.switchTo().alert().getText());//アラートのテキストを取得する
 		driver.switchTo().alert().dismiss();//アラートに切り替えてCancelボタンを押下する
 		//dismiss()はNoやCancelなど肯定に使用
+		driver.close();
 		
 		
 		

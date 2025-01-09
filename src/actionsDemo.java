@@ -19,6 +19,7 @@ public class actionsDemo {
 		a.moveToElement(driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
 		//特定の要素に移動する
 		a.moveToElement(move).contextClick().build().perform();
+		driver.close();
 
 	}
 
