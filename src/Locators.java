@@ -37,6 +37,8 @@ public class Locators {
 		driver.findElement(By.id("chkboxTwo")).click();
 		//SIGN IN
 		driver.findElement(By.className("signInBtn")).click();
+		
+		driver.close();
 	}
 
 }

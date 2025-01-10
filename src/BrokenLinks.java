@@ -36,5 +36,7 @@ public class BrokenLinks {
 			a.assertTrue(respCode < 400, "The link with Text" + link.getText() + " is broken with code" + respCode);
 		}
 		a.assertAll();
-	}
+		
+		driver.close()
+;	}
 }
